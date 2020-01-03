@@ -1,0 +1,21 @@
+/**
+ * Spacing and type sizes can be proportionally scaled by:
+ * - using the `rem` unit within components
+ * - specifying a percentage value for the `font-size` property on the `:root` selector
+*/
+
+:root {
+  font-size: 93.75%;
+
+  @media (min-width: 36rem) {
+    font-size: 100%;
+  }
+
+  @media (min-width: 40rem) {
+    font-size: 106.25%;
+  }
+
+  @media (min-width: 44rem) {
+    font-size: 112.5%;
+  }
+}

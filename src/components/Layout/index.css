@@ -1,3 +1,5 @@
+@import "viewport-scale.css";
+
 html {
   font-family: "Oswald", sans-serif;
   -ms-text-size-adjust: 100%;

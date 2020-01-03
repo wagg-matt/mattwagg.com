@@ -22,6 +22,7 @@ module.exports = {
         display: 'swap'
       },
     },
+    `gatsby-plugin-postcss`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
