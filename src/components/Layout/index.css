@@ -1,7 +1,11 @@
 @import "viewport-scale.css";
 
-html {
-  font-family: "Oswald", sans-serif;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
+.Layout {
+  padding: 0 1rem;
+  margin: 0 auto;
+  max-width: 85rem;
+
+  @media screen and (min-width: 42.5rem) {
+    padding: 0 2rem;
+  }
 }
