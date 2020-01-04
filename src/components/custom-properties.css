@@ -22,11 +22,12 @@
   --type-20: 10.544rem/11rem;
 
   /* Add Colours here */
+  --white: #fff;
 
   /* Add Assigments here */
-  /* --body-font: system-ui;
-  --brand-font: proxima-nova, sans-serif;
-  --brand-colour: var(--green);
+  /* --body-font: system-ui; */
+  --heading-font: "Oswald", sans-serif;
+  /* --brand-colour: var(--green);
   --error-colour: var(--red);
   --focus-colour: var(--yellow);
   --visited-colour: var(--purple); */
