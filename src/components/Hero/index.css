@@ -1,0 +1,31 @@
+@import "../custom-properties.css";
+
+.hero {
+}
+
+.hero__title {
+  color: var(--yellow);
+  font: 600 var(--type-12) var(--heading-font);
+  margin: 0;
+  max-width: 30rem;
+  text-transform: uppercase;
+
+  @media screen and (min-width: 42.5rem) {
+    font: 600 var(--type-13) var(--heading-font);
+  }
+
+  &:after {
+    box-shadow: 0 0.25rem 0 var(--yellow);
+    content: "";
+    display: block;
+    height: 0.25rem;
+    margin-top: 2rem;
+    max-width: 6rem;
+  }
+}
+
+.hero__description {
+  color: var(--yellow);
+  font: 300 var(--type-2) var(--body-font);
+  margin: 1.75rem 0 0;
+}

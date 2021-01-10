@@ -1,11 +1,5 @@
 @import "viewport-scale.css";
 
 .Layout {
-  padding: 0 1rem;
-  margin: 0 auto;
-  max-width: 85rem;
-
-  @media screen and (min-width: 42.5rem) {
-    padding: 0 2rem;
-  }
+  scroll-behavior: smooth;
 }

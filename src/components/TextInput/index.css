@@ -1,0 +1,7 @@
+@import "../custom-properties.css";
+
+.textinput {
+  font: 300 var(--type-2) var(--body-font);
+  margin-top: 1rem;
+  padding: 0.5rem;
+}

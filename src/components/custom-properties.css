@@ -19,16 +19,23 @@
   --type-10: 3.247rem/3.75rem;
   --type-11: 3.653rem/4rem;
   --type-12: 4.11rem/4.5rem;
+  --type-13: 4.624rem/4.87rem;
+  --type-14: 5.202rem/5.45rem;
+  --type-15: 5.852rem/6rem;
   --type-20: 10.544rem/11rem;
 
   /* Add Colours here */
+  --black: #000;
   --white: #fff;
+  --purple: #639;
+  --darkGreen: #1b2a2f;
+  --yellow: #e6f704;
 
   /* Add Assigments here */
-  /* --body-font: system-ui; */
+  --body-font: system-ui;
   --heading-font: "Oswald", sans-serif;
-  /* --brand-colour: var(--green);
-  --error-colour: var(--red);
+  --brand-colour: var(--darkGreen);
+  /* --error-colour: var(--red);
   --focus-colour: var(--yellow);
   --visited-colour: var(--purple); */
 }

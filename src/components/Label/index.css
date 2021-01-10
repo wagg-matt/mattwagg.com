@@ -1,0 +1,6 @@
+@import "../custom-properties.css";
+
+.label {
+  display: block;
+  font: 500 var(--type-2) var(--body-font);
+}
