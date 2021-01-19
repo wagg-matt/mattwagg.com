@@ -4,11 +4,9 @@ import "./index.css";
 
 const Footer = () => (
   <footer className="footer">
-    <div className="footer__inner">
-      © {new Date().getFullYear()}, Built with
-      {` `}
-      <a href="https://www.gatsbyjs.org">Gatsby</a>
-    </div>
+    <p className="footer__inner">
+      Matt Wagg © {new Date().getFullYear()}
+    </p>
   </footer>
 )
 
